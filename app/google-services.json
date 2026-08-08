@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171030192739",
+    "project_id": "echonotechat",
+    "storage_bucket": "echonotechat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171030192739:android:f274877e8b59203b620e56",
+        "android_client_info": {
+          "package_name": "com.echochat.cid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxbaayrM-3ZZOyKEP5Sc_Bpw5PsNBiWqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
