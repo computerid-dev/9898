@@ -1,0 +1,20 @@
+rules_version = '2';
+
+// EchoChat tidak pakai Firebase Auth (akun tetap guest/UID manual seperti sebelumnya),
+// jadi akses dibuka berdasarkan pengetahuan UID saja, bukan token login.
+// Cocok untuk proyek pribadi/skala kecil - jangan simpan data sensitif di sini.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{uid} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    match /chats/{chatId}/messages/{messageId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if false;
+    }
+  }
+}
