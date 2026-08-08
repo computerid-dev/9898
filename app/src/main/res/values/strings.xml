@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EchoChat</string>
+    <string name="app_tagline">Ngobrol tanpa jejak, sepenuhnya milikmu</string>
+
+    <string name="setup_title">Buat akun tamu</string>
+    <string name="setup_subtitle">Data kamu tersimpan di perangkat ini saja. Cukup pilih nama panggilan untuk mulai.</string>
+    <string name="hint_display_name">Nama panggilan kamu</string>
+    <string name="action_continue">Lanjutkan</string>
+    <string name="error_name_empty">Nama panggilan tidak boleh kosong</string>
+
+    <string name="tab_chats">Chat</string>
+    <string name="tab_contacts">Kontak</string>
+    <string name="tab_account">Info Akun</string>
+    <string name="tab_developer">Developer</string>
+
+    <string name="home_title">Obrolan</string>
+    <string name="contacts_title">Kontak</string>
+    <string name="account_title">Info Akun</string>
+
+    <string name="your_id_label">ID kamu</string>
+    <string name="action_copy">Salin</string>
+    <string name="id_copied">ID disalin ke clipboard</string>
+    <string name="empty_friend_list">Belum ada obrolan. Ketuk tombol + untuk menambahkan teman lewat kode ID.</string>
+    <string name="empty_contact_list">Belum ada kontak tersimpan.</string>
+
+    <string name="add_friend_title">Tambah teman</string>
+    <string name="hint_friend_id">Kode ID teman</string>
+    <string name="hint_friend_nickname">Nama panggilan untuk teman ini</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_checking">Memeriksa ID…</string>
+    <string name="error_friend_id_empty">Kode ID teman tidak boleh kosong</string>
+    <string name="error_friend_nickname_empty">Nama panggilan tidak boleh kosong</string>
+    <string name="error_friend_id_self">Kode ID ini adalah milikmu sendiri</string>
+    <string name="error_friend_exists">Teman dengan kode ID ini sudah ada</string>
+    <string name="error_friend_id_not_found">ID ini belum pernah membuat akun EchoChat</string>
+    <string name="error_check_failed">Gagal memeriksa ID, cek koneksi internet dan coba lagi</string>
+
+    <string name="hint_message">Tulis pesan…</string>
+    <string name="empty_chat">Belum ada pesan. Mulai obrolan sekarang.</string>
+    <string name="menu_wallpaper">Ganti wallpaper</string>
+    <string name="menu_reset_wallpaper">Hapus wallpaper</string>
+    <string name="menu_friend_detail">Detail teman</string>
+    <string name="blocked_notice">Teman ini sudah kamu blokir. Buka blokir untuk mengirim pesan lagi.</string>
+
+    <string name="friend_detail_title">Detail teman</string>
+    <string name="action_start_chat">Mulai chat</string>
+    <string name="action_block">Blokir teman</string>
+    <string name="action_unblock">Buka blokir</string>
+    <string name="action_delete_friend">Hapus pertemanan</string>
+    <string name="confirm_delete_title">Hapus pertemanan?</string>
+    <string name="confirm_delete_message">Teman dan seluruh riwayat chat dengannya akan dihapus permanen dari perangkat ini.</string>
+    <string name="confirm_block_title">Blokir teman ini?</string>
+    <string name="confirm_block_message">Kamu tidak akan bisa mengirim atau menerima pesan dari teman ini sampai blokir dibuka.</string>
+    <string name="action_yes">Ya</string>
+    <string name="action_cancel">Batal</string>
+
+    <string name="action_save_name">Simpan nama</string>
+    <string name="name_saved">Nama berhasil disimpan</string>
+    <string name="action_change_avatar">Ubah avatar</string>
+    <string name="action_backup_export">Ekspor backup (JSON)</string>
+    <string name="action_backup_import">Impor backup (JSON)</string>
+    <string name="backup_export_success">Backup berhasil disimpan</string>
+    <string name="backup_import_success">Backup berhasil diimpor</string>
+    <string name="backup_failed">Gagal memproses file backup</string>
+
+    <string name="action_add_friend_menu">Tambah Teman</string>
+    <string name="action_create_group_menu">Buat Grup</string>
+
+    <string name="create_group_title">Buat grup</string>
+    <string name="hint_group_name">Nama grup</string>
+    <string name="error_group_name_empty">Nama grup tidak boleh kosong</string>
+    <string name="action_create">Buat</string>
+
+    <string name="group_detail_title">Info grup</string>
+    <string name="group_members_title">Anggota</string>
+    <string name="action_add_member">Tambah anggota</string>
+    <string name="hint_member_uid">Kode ID anggota</string>
+    <string name="action_make_admin">Jadikan admin</string>
+    <string name="action_remove_admin">Cabut admin</string>
+    <string name="action_kick_member">Keluarkan dari grup</string>
+    <string name="label_admin">Admin</string>
+    <string name="label_you">Kamu</string>
+    <string name="empty_group_chat">Belum ada pesan di grup ini.</string>
+
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_dark_mode">Mode gelap</string>
+    <string name="settings_hide_uid">Sembunyikan ID di layar Chat</string>
+    <string name="settings_wallpaper">Wallpaper chat</string>
+    <string name="settings_battery">Nonaktifkan optimasi baterai</string>
+    <string name="settings_battery_desc">Supaya notifikasi tetap jalan walau aplikasi lama tidak dibuka, izinkan EchoChat berjalan tanpa dibatasi baterai.</string>
+    <string name="settings_notification_toggle">Notifikasi latar belakang</string>
+
+    <string name="wallpaper_settings_title">Wallpaper chat</string>
+    <string name="wallpaper_pick_image">Pilih gambar</string>
+    <string name="wallpaper_mode_all">Semua obrolan</string>
+    <string name="wallpaper_mode_contacts">Hanya kontak tersimpan</string>
+    <string name="wallpaper_mode_specific">Hanya kontak tertentu</string>
+    <string name="wallpaper_mode_none">Tidak pakai wallpaper</string>
+    <string name="wallpaper_choose_contacts">Pilih kontak</string>
+    <string name="action_reset_wallpaper_full">Bersihkan ke semula</string>
+
+    <string name="developer_title">Opsi Developer</string>
+    <string name="developer_name_label">Dikembangkan oleh</string>
+    <string name="developer_contact_whatsapp">Hubungi CS via WhatsApp</string>
+    <string name="developer_contact_email">Hubungi CS via Email</string>
+
+    <string name="import_data_title">Impor data</string>
+    <string name="action_import_now">Pilih file backup (.zip)</string>
+    <string name="import_restore_success">Data berhasil dipulihkan</string>
+
+    <string name="notification_channel_name">Pesan EchoChat</string>
+    <string name="notification_service_title">EchoChat aktif di latar belakang</string>
+    <string name="notification_service_desc">Mendengarkan pesan masuk secara real-time</string>
+</resources>
