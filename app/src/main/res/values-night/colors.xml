@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#075E54</color>
+    <color name="brand_primary_dark">#043b34</color>
+    <color name="brand_accent">#25D366</color>
+
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_alt">#262626</color>
+    <color name="background">#121212</color>
+
+    <color name="text_primary">#EDEDED</color>
+    <color name="text_secondary">#A0A0A0</color>
+    <color name="divider">#333333</color>
+
+    <color name="bubble_mine">#0B4A3F</color>
+    <color name="bubble_mine_text">#EDEDED</color>
+    <color name="bubble_friend">#262626</color>
+    <color name="bubble_friend_text">#EDEDED</color>
+
+    <color name="danger">#D64545</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
